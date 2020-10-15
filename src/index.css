@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#intro{
+  color: blue;
+    margin-bottom:2%;
+}
+.formContainer{
+  width: 60%;
+  margin:8% auto auto auto;
+}
+.jumbotron {
+  border-radius: 6px !important;
+  background-color: rgb(211, 202, 188)!important;
+}
+.stateCity{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 767px) {
+  .formContainer{
+  
+    margin:80% auto auto auto;
+  }
+}
